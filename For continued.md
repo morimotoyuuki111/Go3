@@ -16,7 +16,8 @@ func main() {
 出力結果
 1024
 ```
-
+For is Go's "while"
+※for ; sum部分のセミコロンを省略して書くこともできる<br>
 For文
 <a href="https://wa3.i-3-i.info/word15412.html">参考サイト</a>
 <a href="https://java2005.cis.k.hosei.ac.jp/materials/lecture04/for.html">参考サイト</a>
@@ -68,3 +69,5 @@ func 関数名(){
 引数を使用する場合は「func 関数名(引数名 型)」と記述する事で、引数を呼び出し先の値<br>
 
 <a href="https://github.com/morimotoyuuki111/Go3/blob/main/For.md">前回For</a>
+
+
