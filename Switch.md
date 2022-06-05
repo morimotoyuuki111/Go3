@@ -37,7 +37,7 @@ caseの後ろのコロン（:）などは忘れがちなので注意<br>
 <a href="https://y-hiroyuki.xyz/go/conditional-branch/switch">参考サイト</a><br>
 <a href="https://golang.keicode.com/basics/go-statement-switch.php">参考サイト</a><br>
 
-runtimeパッケージ<br>
+- runtimeパッケージ<br>
 <a href="https://wa3.i-3-i.info/word13467.html">参考サイト</a><br>
 
 - package main<br>
