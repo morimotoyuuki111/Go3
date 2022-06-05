@@ -2,7 +2,7 @@ Go言語の if ステートメントは、先ほどの for ループと同様に
 
 ```
 pakage main　
-import main
+func main
   score := 100 //scoreに１００を代入される　
   if score > 80{　　//条件式　　//scoreが80より大きいときに成り立つ
   
