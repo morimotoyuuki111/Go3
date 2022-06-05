@@ -1,4 +1,4 @@
-```
+```go
 pakckage main　//パッケージを宣言
 import "fmt"　fmtパッケージをインポート
 func main(){
