@@ -99,4 +99,4 @@ func 関数名(){
 引数とは、関数に渡す値<br>
 引数を使用する場合は「func 関数名(引数名 型)」と記述する事で、引数を呼び出し先の値<br>
 
-<a href="https://github.com/morimotoyuuki111/Go3/edit/main/Switch.md">前回　Switch</a>
+<a href="https://github.com/morimotoyuuki111/Go3/blob/main/Switch.md">前回　Switch</a>
