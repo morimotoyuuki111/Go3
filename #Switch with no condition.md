@@ -27,7 +27,7 @@ Good evening.
 ```
 
 - switch<br>
-条件の値がcaseの値と一致するとき、処理が実行される
+条件の値がcaseの値と一致するとき、処理が実行される.
 caseの後ろのコロン（:）などは忘れがちなので注意<br>
 <a href="https://y-hiroyuki.xyz/go/conditional-branch/switch">参考サイト</a><br>
 <a href="https://golang.keicode.com/basics/go-statement-switch.php">timeパッケージチートシート</a><br>
