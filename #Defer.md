@@ -8,7 +8,7 @@ defer へ渡した関数の引数は、すぐに評価されますが、<br>
 
 package main　//パッケージを宣言
 
-import "fmt"　fmtパッケージをインポート
+import "fmt"　//fmtパッケージをインポート
 
 func main() {
 
