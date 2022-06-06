@@ -9,11 +9,11 @@ import "fmt"　//fmtパッケージをインポート
 func main() {
 	fmt.Println("counting")　//countingを出力
 
-	for i := 0; i < 10; i++ {　　//// i :=0;  変数の初期値　 i<10; 繰り返しの条件　　iの中が10より小さい間、繰り返す　　i++ 変数の更新
-		defer fmt.Println(i) 変数iが出力されるが遅延されて出力される
+	for i := 0; i < 10; i++ {　　// i :=0;  変数の初期値　 i<10; 繰り返しの条件　　iの中が10より小さい間、繰り返す　　i++ 変数の更新
+		defer fmt.Println(i) //変数iが出力されるが遅延されて出力される
 	}
 
-	fmt.Println("done")doneが出力される
+	fmt.Println("done") //doneが出力される
 }
 
 出力結果
