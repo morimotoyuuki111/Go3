@@ -1,6 +1,6 @@
 Go言語の if ステートメントは、先ほどの for ループと同様に、括弧 ( ) は不要で、中括弧 { } は必要<br>
 
-```
+```go
 pakage main　
 func main
   score := 100 //scoreに１００を代入される　
