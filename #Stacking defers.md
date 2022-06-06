@@ -34,7 +34,7 @@ done
 - スタックについて<br>
 <a href="https://wa3.i-3-i.info/word14717.html">参考サイト</a>
 
-- For文
+- For文<br>
 <a href="https://wa3.i-3-i.info/word15412.html">参考サイト</a><br>
 <a href="https://java2005.cis.k.hosei.ac.jp/materials/lecture04/for.html">参考サイト</a><br>
 
