@@ -1,4 +1,4 @@
-#
+# If and else
 
 ```go
 pakckage main　//パッケージを宣言
