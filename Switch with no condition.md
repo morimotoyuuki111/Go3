@@ -1,3 +1,5 @@
+#
+
 条件のないswitchは、 switch true と書くことと同じ<br>
 このswitchの構造は、長くなりがちな "if-then-else" のつながりをシンプルに表現できる<br>
 
