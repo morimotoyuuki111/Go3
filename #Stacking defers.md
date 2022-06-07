@@ -1,3 +1,5 @@
+#
+
 defer へ渡した関数が複数ある場合、その呼び出しはスタック( stack )される<br>
 呼び出し元の関数がreturnするとき、 defer へ渡した関数は LIFO(last-in-first-out) の順番で実行される<br>
 
