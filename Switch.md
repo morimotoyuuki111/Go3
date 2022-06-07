@@ -1,3 +1,5 @@
+#
+
 witch ステートメントは if - else ステートメントのシーケンスを短く書く方法<br>
 Go の switch は C や C++、Java、JavaScript、PHP の switch と似ているが<br> 
 Go では選択された case だけを実行してそれに続く全てのcaseは実行されない<br>
