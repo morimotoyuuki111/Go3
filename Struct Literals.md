@@ -17,7 +17,7 @@ var (
     v1 = Vertex{1,2} // v１に　Vertex{1,2} が代入される
 Vertex
     v2 = Vertex{X: 1}　//v2にVertex{X: 1}　が代入される　 Y:0 is implicit
-implicit 
+    
     v3 = Vertex{}　//v3にVertex{}が代入される　
     p  = &Vertex{1,2}　//pに&Vertex{1,2}が代入される
 *Vertex
