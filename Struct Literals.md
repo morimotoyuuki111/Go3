@@ -16,9 +16,9 @@ type Vertex struct {　//type Vertex（構造体の名前） struct
 var (
     v1 = Vertex{1,2} // v１に　Vertex{1,2} が代入される
 Vertex
-    v2 = Vertex{X: 1}　//v2にVertex{X: 1}　が代入される
+    v2 = Vertex{X: 1}　//v2にVertex{X: 1}　が代入される　 Y:0 is implicit
 implicit 
-    v3 = Vertex{}　//v3にVertex{}
+    v3 = Vertex{}　//v3にVertex{}が代入される　
     p  = &Vertex{1,2}　//pに&Vertex{1,2}が代入される
 *Vertex
 )
@@ -29,6 +29,17 @@ func main() {
 
 出力結果
 {1 2} &{1 2} {1 0} {0 0}
+```
+
+func main() {
+  v := Vertex{1,2}　//int型の変数XYがまとまった
+  p := &v　　//変数pに&vが代入される。　v := Vertex{1,2}のこと
+  p.X = 1e9　//p.Xに1e9が代入される　　1e9は1000000000のこと
+  fmt.Println(v)　//変数pに&vが代入されているためpとvが出力される
+}
+
+出力結果
+{1000000000 2}
 ```
 
 - 構造体<br>
