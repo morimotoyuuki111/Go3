@@ -32,7 +32,7 @@ func main() {
 [3 5 7]
 ```
 
-スライスについて
+スライスについて<br>
 <a href="https://golang.keicode.com/basics/go-slice.php#1">参考サイト</a><br>
 
 
