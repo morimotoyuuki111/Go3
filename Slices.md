@@ -42,7 +42,7 @@ func main() {
 - int型<br>
 <a href="https://wa3.i-3-i.info/word14966.html">参考サイト</a><br>
 
-- string<br>
+- string型<br>
 <a href="https://wa3.i-3-i.info/word14965.html">参考サイト</a><br>
 
 
