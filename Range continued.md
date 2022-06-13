@@ -18,7 +18,7 @@ package main　//パッケージを宣言
 
 import "fmt"　//fmtパッケージをインポート
 
-func main() {([]int, 10)　//10は長さ？
+func main() {([]int, 10)　//10は長さ？容量？
 	pow := make([]int, 10)　//変数　powにmake([]int, 10)が代入
 	for i := range pow {　　//iに　range powが入る　 rangeは二つの変数を繰り返すのでiとpowが繰り返される
 		pow[i] = 1 << uint(i) // == 2**i　//なぜ二進数になるのか？ 
