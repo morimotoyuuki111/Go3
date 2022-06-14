@@ -28,6 +28,24 @@ func mian() {
 map[Bell Labs:{40.68433 -74.39967} Google:{37.42202 -122.08408}]
 ```
 
+- スライス型
+```go
+var a []string
+var b []string // aとbの型は同一
+```
+
+- マップ型
+```go
+var a map[int]bool
+// aとbの型は同一
+var b map[int]bool
+// キーの型が異なるため、aとcの型は異なる
+var c map[int32]bool
+// 要素の型が異なるため、aとdの型は異なる
+var d map[int]string
+
+```
+
 - 構造体<br>
 <a href="https://github.com/morimotoyuuki111/Go3/blob/main/Structs.md">過去の勉強</a><br>
 
