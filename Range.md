@@ -12,7 +12,7 @@ import "fmt"　//fmtパッケージをインポート
 var pow = []int{1, 2, 4, 8, 16, 32, 64, 128}　//varは定義　powを宣言　
 
 func main()
-    for i, v:= range pow {　// 番号と要素の値をひとつずつ繰り返す
+    for i, v:= range pow {　// range pow はスライスのpowの中身を1つずつ取り出して処理をするというコード　forの後に変数が2つの場合は、index（順番）と値の両方が取得できる
         fmt.Printf("2**%d = %d\n", i, v) 　 //%dが繰り返す数
    }
 }
